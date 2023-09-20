@@ -113,3 +113,12 @@ By following these steps, you can securely store your Terraform state in S3 with
 ```
 
 Please note that you should adapt the configuration and commands to your specific AWS environment and requirements.
+
+---
+# Implementation
+
+1. Before executing the Terraform, first comment the backend.tf and then execute the Init-Plan-Apply commands
+
+2. This creates the S3 Bucket
+
+3. Now uncomment the backend.tf and then execute the Init-Plan-Apply commands
