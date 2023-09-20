@@ -122,3 +122,8 @@ Please note that you should adapt the configuration and commands to your specifi
 2. This creates the S3 Bucket
 
 3. Now uncomment the backend.tf and then execute the Init-Plan-Apply commands
+
+Below is the State file in S3 bucket with DynamoDB Table for State Locking
+
+![image](https://github.com/Pavan-1997/Terraform_Remote-Backend_State-Locking_Notes/assets/32020205/d311c10c-399f-4469-bfa7-41386b1124a1)
+
